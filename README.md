@@ -1,10 +1,13 @@
-# MeowDoku Auto Solver
-
-**🇺 English** | 🇺 [Русский](README_ru.md)
-
-<img src="MeowLogo.png" alt="MeowDoku" width="140">
-
-An EMScript macro for [Macrorify](https://play.google.com/store/apps/details?id=com.kok_emm.mobile) that solves [MeowDoku](https://play.google.com/store/apps/details?id=com.oakever.meowdoku) levels end to end: it reads the board from the screen, computes a valid cat placement, plays it out with taps, and walks through victory and defeat screens on its own.
+<div align="center">
+  <img src="MeowLogo.png" alt="MeowDoku" width="220"/>
+  <h1>MeowDoku Auto Solver</h1>
+  <p>
+    <b>🇺🇸 English</b> | <b><a href="README_ru.md">🇷 Русский</a></b>
+  </p>
+  <p>
+    🐾 Automated solver for <a href="https://play.google.com/store/apps/details?id=com.oakever.meowdoku">MeowDoku</a> built on top of the <a href="https://play.google.com/store/apps/details?id=com.kok_emm.mobile">Macrorify</a> automation engine.
+  </p>
+</div>
 
 ## What it does
 
