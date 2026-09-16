@@ -1,16 +1,13 @@
-<p align="center">
+<div align="center">
   <img src="MeowLogo.png" alt="MeowDoku" width="220"/>
-</p>
-
-<h1 align="center">MeowDoku Auto Solver</h1>
-
-<p align="center">
-  <a href="README_ru.md">Русский</a> | English
-</p>
-
-<p align="center">
-  Automated solver for <a href="https://play.google.com/store/apps/details?id=com.oakever.meowdoku">MeowDoku</a> built on top of <a href="https://play.google.com/store/apps/details?id=com.kok_emm.mobile">Macrorify</a> automation engine.
-</p>
+  <h1>MeowDoku Auto Solver</h1>
+  <p>
+    🇬🇧 English | 🇷 <a href="README_ru.md">Русский</a>
+  </p>
+  <p>
+    🐾 Automated solver for <a href="https://play.google.com/store/apps/details?id=com.oakever.meowdoku">MeowDoku</a> built on top of the <a href="https://play.google.com/store/apps/details?id=com.kok_emm.mobile">Macrorify</a> automation engine.
+  </p>
+</div>
 
 ## Overview
 
@@ -40,7 +37,7 @@ The macro operates in a continuous loop with the following stages:
 * **Region grouping.** All cell colors are sampled in one batch and clustered into color regions using CIE76 delta E.
 * **Solving.** A backtracking solver places one cat per row, respecting column uniqueness, region uniqueness, and the non adjacency rule (no cats touching horizontally, vertically or diagonally).
 * **Placing.** Each target cell receives two taps: the first draws a cross, the second turns it into a cat.
-* **Post level Handling.** If the board is lost, the retry button is pressed. On victory, the macro waits exactly 8 seconds after the last cat tap and closes the leaderboard, then waits for the next level button and proceeds.
+* **Post level handling.** If the board is lost, the retry button is pressed. On victory, the macro waits exactly 8 seconds after the last cat tap and closes the leaderboard, then waits for the next level button and proceeds.
 
 ## Configuration
 
