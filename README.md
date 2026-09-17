@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="MeowLogo.png" alt="MeowDoku" width="220"/>
+  <img src="MeowLogo.png" alt="MeowDoku" width="220" style="border-radius: 20%;"/>
   <h1>MeowDoku Auto Solver</h1>
   <p>
     <b>🇺🇸 English</b> | <b><a href="README_ru.md">🇷🇺 Русский</a></b>
